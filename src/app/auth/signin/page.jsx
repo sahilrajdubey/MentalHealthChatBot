@@ -45,7 +45,6 @@ export default function SignIn() {
   // Simulate loading and redirect to React app
   setTimeout(() => {
     setIsLoading(false);
-    // React app ka URL (usually port 3001 ya koi aur port)
     window.location.href = 'http://localhost:8080'; // 👈 React app ka port
   }, 1500);
 };
