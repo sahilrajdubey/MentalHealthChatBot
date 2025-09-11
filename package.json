@@ -1,7 +1,9 @@
 {
   "name": "mental-health-chatbot",
   "version": "0.1.0",
+  "description": "A mental health chatbot application built with Next.js",
   "private": true,
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -16,6 +18,7 @@
     "lucide-react": "^0.294.0",
     "recharts": "^2.8.0",
     "date-fns": "^2.30.0",
+    "react-speech-kit": "^3.0.1",
     "uuid": "^9.0.1",
     "clsx": "^2.0.0"
   },
